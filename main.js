@@ -14,6 +14,7 @@ import { asyncAwaitBasic } from "./13-async-await-basic.js";
 import { fetchDataAsync } from "./14-fetch-data-async.js";
 import { fetchDataAsyncSingle } from "./15-try-catch-finally.js";
 import { fetchPostsThen } from "./exercises/01-fetch-api-posts.js";
+import { fetchPostsAsync } from "./exercises/02-fetch-async-await-posts.js";
 
 const runButton = document.getElementById("runCodeBtn");
 
@@ -50,5 +51,7 @@ runButton.addEventListener("click", () => {
 	// fetchDataAsyncSingle(10);
 
 	/*01-fetch-api-posts.*/
-	fetchPostsThen();
+	// fetchPostsThen();
+	/*02-fetch-async-await-posts*/
+	fetchPostsAsync();
 });
