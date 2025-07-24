@@ -8,4 +8,4 @@ export const asyncBasic = () => {
 	console.log(`End`);
 };
 
-// asyncBasic();
+asyncBasic();
